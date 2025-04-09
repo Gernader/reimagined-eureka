@@ -7,6 +7,12 @@ class Student
     @name = student[:name]
     @age = student[:age]
     @score = []
+  end
+
+  def log_score(score)
+    @score << score
 
   end
+
+
 end
